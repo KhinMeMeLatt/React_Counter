@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 class Counter extends Component {
     render() { 
-        console.log("props", this.props);
+        console.log('Counter - Rendered');
+
+        // console.log("props", this.props);
 
         return (
             <React.Fragment>
